@@ -1,5 +1,7 @@
 package display;
 
 public class Console {
-    // This class is static
+    public static void printMenu(){
+        System.out.println("Hello Roy");
+    }
 }
