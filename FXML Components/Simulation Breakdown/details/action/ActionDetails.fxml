@@ -21,7 +21,7 @@
       <RowConstraints minHeight="10.0" prefHeight="10.0" valignment="CENTER" vgrow="NEVER" />
       <RowConstraints minHeight="-Infinity" vgrow="NEVER" />
       <RowConstraints minHeight="-Infinity" prefHeight="10.0" vgrow="NEVER" />
-      <RowConstraints maxHeight="37.0" minHeight="-Infinity" prefHeight="34.0" vgrow="NEVER" />
+      <RowConstraints minHeight="42.0" vgrow="NEVER" />
       <RowConstraints maxHeight="37.0" minHeight="-Infinity" prefHeight="10.0" vgrow="NEVER" />
       <RowConstraints maxHeight="37.0" minHeight="10.0" prefHeight="34.0" vgrow="NEVER" />
       <RowConstraints maxHeight="18.0" minHeight="-Infinity" prefHeight="10.0" valignment="CENTER" vgrow="NEVER" />
@@ -40,12 +40,12 @@
       </Label>
       <Label fx:id="lblType" text="Placeholder" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
       <Label fx:id="lblPrimeEntity" text="Placeholder" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
-      <Label minHeight="-Infinity" text="Has Secondary Entity:" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="5">
+      <Label minHeight="-Infinity" text="Has Secondary Entity:" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="NEVER" GridPane.rowIndex="5" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
       </Label>
       <Label fx:id="lblHasSecondEntity" text="Placeholder" GridPane.columnIndex="3" GridPane.rowIndex="5" />
-      <VBox fx:id="vboxExtras" alignment="CENTER" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="7" />
+      <VBox fx:id="vboxExtras" alignment="CENTER" spacing="10.0" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="7" />
    </children>
 </GridPane>
