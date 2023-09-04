@@ -33,14 +33,14 @@
             <Font name="System Bold" size="15.0" />
          </font>
       </Label>
-      <Label text="Primary Entity:" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+      <Label text="Primary entity:" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
       </Label>
       <Label fx:id="lblType" text="Placeholder" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
       <Label fx:id="lblPrimeEntity" text="Placeholder" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
-      <Label minHeight="-Infinity" text="Has Secondary Entity:" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="NEVER" GridPane.rowIndex="5" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
+      <Label minHeight="-Infinity" text="Has secondary entity:" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="NEVER" GridPane.rowIndex="5" GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>

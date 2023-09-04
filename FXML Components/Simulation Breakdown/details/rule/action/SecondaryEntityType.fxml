@@ -16,7 +16,7 @@
     <RowConstraints minHeight="-Infinity" vgrow="NEVER" />
   </rowConstraints>
    <children>
-      <Label text="Secondary Entity Name:" textAlignment="CENTER" wrapText="true" GridPane.halignment="CENTER">
+      <Label text="Secondary entity name:" textAlignment="CENTER" wrapText="true" GridPane.halignment="CENTER">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>

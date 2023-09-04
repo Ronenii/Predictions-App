@@ -20,11 +20,7 @@
       <RowConstraints minHeight="-Infinity" valignment="CENTER" vgrow="NEVER" />
       <RowConstraints minHeight="-Infinity" prefHeight="10.0" valignment="CENTER" vgrow="NEVER" />
       <RowConstraints minHeight="-Infinity" valignment="CENTER" vgrow="NEVER" />
-      <RowConstraints minHeight="-Infinity" prefHeight="30.0" valignment="CENTER" vgrow="NEVER" />
-      <RowConstraints minHeight="-Infinity" valignment="CENTER" vgrow="NEVER" />
       <RowConstraints minHeight="-Infinity" prefHeight="10.0" valignment="CENTER" vgrow="NEVER" />
-    <RowConstraints minHeight="-Infinity" valignment="CENTER" vgrow="NEVER" />
-    <RowConstraints minHeight="-Infinity" prefHeight="10.0" valignment="CENTER" vgrow="NEVER" />
   </rowConstraints>
    <children>
       <Label text="Activation" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="1">
@@ -52,30 +48,5 @@
             <Label id="lbl-RuleDetails-Probability" fx:id="lblProbability" text="Placeholder" />
          </children>
       </VBox>
-      <VBox alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="7">
-         <children>
-            <Label text="Quantity:">
-               <font>
-                  <Font name="System Bold" size="15.0" />
-               </font>
-            </Label>
-            <Label text="Types:">
-               <font>
-                  <Font name="System Bold" size="15.0" />
-               </font>
-            </Label>
-         </children>
-      </VBox>
-      <VBox alignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="7">
-         <children>
-            <Label id="lbl-RuleDetails-Quantity" fx:id="lblQuantity" text="Placeholder" />
-            <Label id="lbl-RuleDetails-Types" fx:id="lblTypes" text="Placeholder" />
-         </children>
-      </VBox>
-      <Label text="Actions" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="5">
-         <font>
-            <Font name="System Bold" size="18.0" />
-         </font>
-      </Label>
    </children>
 </GridPane>
