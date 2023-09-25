@@ -45,3 +45,7 @@ The Predictions framework also supports the following features:
 * **Error handling:** The framework detects and reports errors that occur during the simulation.
 * **Parallel Simulation Runs:** The framework can run multiple simulations simultaneously, using the number of threads specified in the configuration file.
 * **Simulation Control:**  Users can stop, pause, and resume running simulations. They can also advance simulations by one tick while paused.
+
+## Comments
+* **Configuration files:** Two sample simulation configuration files are provided for your convenience. If you want to write your own configuration file, you can use the provided files or the provided XML schema as a reference
+* **Bonus check box:** There is a bonus check box in the top left corner of the program. It controls the options for both choosing a skin for the program and minor animations we added. 
