@@ -271,7 +271,7 @@ public class SimulationInstance implements Serializable, Runnable {
 
                 userInstructions.isSimulationSkippedForward = false;
             }
-            Thread.sleep(200);
+            delayNextTick();
         } while ((!endingConditionsMet()));
 
         if (status != SimulationStatus.CRUSHED) {
@@ -719,9 +719,9 @@ public class SimulationInstance implements Serializable, Runnable {
         }
     }
 
-    private void threadSleep() {
+    private void delayNextTick() {
         try {
-            Thread.sleep(500);
+            Thread.sleep(200);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
