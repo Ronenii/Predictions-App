@@ -2,6 +2,12 @@
 
 Predictions is a generic simulation framework that allows users to define a world with entities and laws that govern their behavior. The framework is designed to be flexible and extensible, allowing users to create simulations for a variety of purposes.
 
+## Technologies used
+
+* IDE: IntelliJ
+* Programming language: Java 8
+* GUI: JavaFX
+
 ## System overview
 
 The Predictions framework consists of the following components:
