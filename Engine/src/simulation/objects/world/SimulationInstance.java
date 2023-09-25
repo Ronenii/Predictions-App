@@ -271,6 +271,7 @@ public class SimulationInstance implements Serializable, Runnable {
 
                 userInstructions.isSimulationSkippedForward = false;
             }
+            Thread.sleep(200);
         } while ((!endingConditionsMet()));
 
         if (status != SimulationStatus.CRUSHED) {
