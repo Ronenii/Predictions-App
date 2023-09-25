@@ -43,6 +43,7 @@ public class HeaderComponentController implements FileLoadedEvent, EngineCommuni
     private String currentLoadedFilePath;
 
     public void setMainController(AppController mainController) {
+        bonusCheckBox.selectedProperty().set(true);
         setOnChecked(null);
         this.mainController = mainController;
         currentLoadedFilePath = "";

@@ -35,6 +35,6 @@
          </font></Label>
       <fx:include fx:id="queueManagerComponent" source="queue/manager/QueueManagerComponent.fxml" GridPane.columnIndex="5" GridPane.rowIndex="2" />
       <ComboBox fx:id="themesCB" onAction="#selectedItemComboBox" prefWidth="150.0" promptText="Themes" GridPane.columnIndex="5" />
-      <CheckBox fx:id="bonusCheckBox" mnemonicParsing="false" onAction="#setOnChecked" text="Bonus" GridPane.columnIndex="1" />
+      <CheckBox fx:id="bonusCheckBox" mnemonicParsing="false" onAction="#setOnChecked" selected="true" text="Bonus" GridPane.columnIndex="1" />
    </children>
 </GridPane>
